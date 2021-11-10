@@ -1,0 +1,129 @@
+body {
+    background: blue;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.hero__heading {
+    display: block;
+    margin: 0;
+    margin-top: 30px;
+    font-size: 48px;
+    color: red;
+    text-align: center;
+}
+
+.from__box {
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.input {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.error {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.btn {
+    display: block;
+    width: 120px;
+    color: wheat;
+    border: none;
+   border-radius: 5px;
+   background-color: red;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    background-color: darkgray;
+}
+
+.hero__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hero__item {
+    width: 250px;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid lightseagreen;
+}
+
+.fas {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 72px;
+    text-align: center;
+}
+
+.fas:nth-child(2){
+    color: darkred;
+}
+
+.item__heading {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.onfoot__result {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: lightblue;
+}
+
+
+.bike__result  {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: cyan;
+}
+
+.car__result {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: deepskyblue;
+}
+
+.plane__result {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: darkturquoise;
+}
